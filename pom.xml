@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.camilasantos.cursoMC</groupId>
-	<artifactId>curscoMC</artifactId>
+	<artifactId>curcoMC</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>curscoMC</name>
 	<description>Estudo de caso Java para curso de Modelagem Conceitual com UML</description>
@@ -23,6 +23,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+			
+		<dependency>
+
+         <groupId>org.springframework.boot</groupId>
+
+         <artifactId>spring-boot-starter-actuator</artifactId>
+
+    </dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
